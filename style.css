@@ -18,6 +18,8 @@ h2 {
     color: #1F2937;
     font-weight: 800;
     font-size: 36px;
+    margin: 0;
+    padding: 0;
 }
 
 h3 {
@@ -79,7 +81,11 @@ img {
 }
 
 .mid-container {
-
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 400px;
 }
 
 .review {
@@ -106,6 +112,7 @@ img {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 800;
 }
 
 .bot-subcontainer {
@@ -123,7 +130,7 @@ img {
     color:#1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 100;
     text-align: justify;
 }
 
@@ -142,4 +149,29 @@ img {
 
 .welcome {
     flex-shrink: 2;
+}
+
+.card-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.box {
+    border: 5px #3882F6 solid;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card p {
+    color: #5a5e66;
+    text-align: center;
 }
