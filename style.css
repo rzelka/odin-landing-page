@@ -3,6 +3,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
 }
 
 h1 {
@@ -17,6 +18,13 @@ h2 {
     color: #1F2937;
     font-weight: 800;
     font-size: 36px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 22px;
+    margin: 0 0 5px 0;
+    padding: 0;
 }
 
 a {
@@ -40,13 +48,20 @@ ul {
 
 button {
     background-color: #3882F6;
+    border: 2px #F9FAF8 solid;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+    padding: 9px 30px;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 16px 200px;
+    padding: 16px 300px;
 }
 
 .top-container {
@@ -59,10 +74,14 @@ button {
 
 .review {
     background-color: #E5E7EB;
+    padding: 100px 400px;
 }
 
 .bot-container{
-
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px 300px;
 }
 
 .footer {
@@ -70,7 +89,8 @@ button {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
-    padding: 30px 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logo {
@@ -79,7 +99,14 @@ button {
 }
 
 .bot-subcontainer {
+    align-items: center;
     background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 100px;
 }
 
 .quote {
@@ -87,4 +114,13 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    text-align: justify;
+}
+
+.user {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: right;
 }
